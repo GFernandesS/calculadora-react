@@ -21,7 +21,11 @@ export default _ => {
     }
 
     const setOperation = operation => {
-        console.log(operation)
+        switch(operation){
+            case '+': 
+                multiply(digits)
+
+        }
     }
 
     const addDigit = digit => {
